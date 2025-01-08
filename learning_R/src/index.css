@@ -1,0 +1,149 @@
+body {
+    background-color: tan;
+   }
+   
+.header-title{
+    text-align: center;
+    text-justify: auto;
+    font-size: 24px;
+}
+   
+.subheader{
+    display: grid;
+    grid-template-rows: auto auto auto; /* Adjust row heights */
+}
+
+.subheader .row{
+    background: transparent;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+
+}
+
+.row:hover{
+    background-color: #90caf9; /* Change color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.image{ /*for a smaller screen*/
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 50vh; /* Full viewport height */
+}
+
+.img-container{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10vb;
+        
+}
+
+.about-me-container{
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Ensure equal spacing between cells */
+    align-items: center; /* Vertically align content */
+    width: 100%; /* Full width of the page */
+    height: 100px; /* Adjust height as needed */
+    background-color: transparent; /* Light background for visibility */
+    padding: 10px 20px; /* Add padding around the table */
+}
+
+.cell{
+    flex: 1; /* Ensure equal width for both cells */
+    text-align: center; /* Center align text */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    padding: 20px;
+    color: #333; /* Text color */
+    background-color: #e3f2fd; /* Background color for cells */
+    border-radius: 8px; /* Rounded corners */
+    margin: 0 10px; /* Spacing between cells */
+      
+}
+
+.cell:hover {
+    background-color: #90caf9; /* Change color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+
+
+   
+@media (min-width: 1024px) { /* for a larger screen*/
+
+    .header-title{
+        text-align: center;
+        text-justify: auto;
+        font-size: 24px;
+    }
+    .subheader{
+        display: grid;
+        grid-template-rows: auto auto auto; /* Adjust row heights */
+        font-size: 25px;
+    }
+    
+    .subheader .row{
+        background: transparent;
+        padding: 50px;
+        border: 0.5px solid #ccc;
+        border-radius: 25px;
+    
+    }
+
+    .row:hover{
+        background-color: #90caf9; /* Change color on hover */
+        cursor: pointer; /* Change cursor to pointer */
+    }
+
+    .image{
+        display: flex;
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        height: 30%; 
+    } 
+    
+    .img-container{
+        max-width: 30%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 5vb;
+            
+    }
+
+    
+    .about-me-container {
+        display: flex; /* Horizontal layout */
+        justify-content: space-between; /* Space between the cells */
+        align-items: center; /* Vertically align content */
+        width: 80%; /* Center container with some padding on sides */
+        max-width: 1200px; /* Limit the maximum width */
+        height: 120px; /* Slightly taller for larger screens */
+        margin: 20px auto; /* Center container on the page */
+        padding: 20px; /* Increased padding for a spacious look */
+        background-color: transparent; /* Subtle background color for larger screens */
+        border-radius: 12px; /* Add slight rounding for container edges */
+    }
+
+    .cell {
+        flex: 1; /* Cells take equal width */
+        text-align: center; /* Center-align text inside each cell */
+        font-size: 1.8rem; /* Larger font for readability */
+        font-weight: bold; /* Emphasize text */
+        padding: 25px; /* Add spacious padding */
+        color: #2b2b2b; /* Slightly darker text color for better contrast */
+        background-color: #e3f2fd; /* Soft blue background */
+        border-radius: 8px; /* Smooth corners */
+        margin: 0 15px; /* Increase horizontal spacing between cells */
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effects */
+    }
+
+    .cell:hover {
+        background-color: #90caf9; /* Change color on hover */
+        cursor: pointer; /* Change cursor to pointer */
+      }
+    
+}
+   
+
