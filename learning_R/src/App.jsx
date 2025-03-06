@@ -3,6 +3,7 @@ import Myprojects from "./pages/myprojects.jsx";
 import Aboutme from "./pages/aboutme.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
+import Page from "./pages/Page.jsx";
 
 
 
@@ -19,6 +20,8 @@ function App() {
             <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<Aboutme />}/>
           <Route path="/myprojects" element={<Myprojects />}/>
+            <Route path="/Page/:id" element={<Page />} /> {/* Dynamic Route */}
+
         </Routes>
 
 

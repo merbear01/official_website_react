@@ -16,11 +16,11 @@ function Cards(){
 
         <div className="subheader">
             
-            <a href="/Page" className="row" alt> Why Software Engineering in the first place</a>
-            <a href="#" className="row">Always ask questions</a>
-            <a href="#" className="row">Don&apos;t be afraid to break things</a>
-            <a href="#" className="row">The importance of software testing</a>
-            <a href="#" className="row">Where do you see yourself in the next 5 years</a>
+            <a href="/Page/Page1" className="row" alt> Why Software Engineering in the first place</a>
+            <a href="/Page/Page2" className="row">Always ask questions</a>
+            <a href="/Page/Page3" className="row">Don&apos;t be afraid to break things</a>
+            <a href="/Page/Page4" className="row">The importance of software testing</a>
+            <a href="/Page/Page5" className="row">Where do you see yourself in the next 5 years</a>
             
         </div>
             </>
