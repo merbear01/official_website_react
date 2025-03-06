@@ -61,7 +61,7 @@ body {
     background-color: #e3f2fd; /* Background color for cells */
     border-radius: 8px; /* Rounded corners */
     margin: 0 10px; /* Spacing between cells */
-      
+
 }
 
 .cell:hover {
@@ -143,7 +143,7 @@ body {
         background-color: #90caf9; /* Change color on hover */
         cursor: pointer; /* Change cursor to pointer */
       }
-    
+
 }
    
 

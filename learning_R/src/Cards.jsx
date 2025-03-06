@@ -1,12 +1,11 @@
+
 function Cards(){
     return(
 
         <>
-        <div className="about-me-container">
-            <a className="cell about-me" href="£">About Me</a>
-            <a className="cell my-project" href="£">My Projects</a>
-            </div>
-        
+
+
+
 
 
         <h2 className="header-title"> Things I should have known in My 20&apos;s as a software engineer/tester</h2>
@@ -17,15 +16,15 @@ function Cards(){
 
         <div className="subheader">
             
-            <a href="#" className="row" alt> Why Software Engineering in the first place</a>
+            <a href="/Page" className="row" alt> Why Software Engineering in the first place</a>
             <a href="#" className="row">Always ask questions</a>
             <a href="#" className="row">Don&apos;t be afraid to break things</a>
             <a href="#" className="row">The importance of software testing</a>
             <a href="#" className="row">Where do you see yourself in the next 5 years</a>
             
         </div>
+            </>
 
-        </>
 
     );
 }
