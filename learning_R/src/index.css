@@ -16,9 +16,15 @@ body {
 .subheader .row{
     background: transparent;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid lightseagreen;
     border-radius: 25px;
 
+}
+.subheader a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+    font-size: 1.2em;
 }
 
 .row:hover{

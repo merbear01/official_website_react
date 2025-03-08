@@ -9,6 +9,7 @@
     text-align: center;
     background-color: lightseagreen;
     border-radius: 10px;
+    padding: 0 30px 0 30px;
 }
 
 .nav-container:first-child{

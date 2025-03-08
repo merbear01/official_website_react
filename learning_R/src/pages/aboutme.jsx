@@ -15,7 +15,23 @@ function Aboutme() {
                 return response.text();
             })
             .then(data => {
-                setContent(data);
+                // Split content into lines
+                let lines = data.split("\n");
+
+                // Process each line: Detect headers and wrap them in <h2>
+                let formattedContent = lines.map(line => {
+                    let trimmed = line.trim();
+
+                    // If the line is short and capitalized, assume it's a header
+                    if (trimmed.length > 0 && trimmed.length <= 60 && /^[A-Z]/.test(trimmed)) {
+                        return `<h2>${trimmed}</h2>`;
+                    }
+
+                    // Otherwise, it's a normal paragraph
+                    return `<p>${trimmed}</p>`;
+                }).join(""); // Join all lines together
+
+                setContent(formattedContent);
                 setLoading(false);
             })
             .catch(error => {
@@ -26,9 +42,10 @@ function Aboutme() {
     }, []);
 
     return (
-        <div>
+        <div >
             <h1>About Me</h1>
-            {loading ? <p>Loading...</p> : error ? <p style={{ color: "red" }}>{error}</p> : <pre>{content}</pre>}
+            {loading ? <p>Loading...</p> : error ? <p style={{ color: "red" }}>{error}</p> :
+                <div className="content" dangerouslySetInnerHTML={{__html: content}}/>}
         </div>
     );
 }
