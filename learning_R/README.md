@@ -1,3 +1,3 @@
 # Up Next
 
-Next up, look for a way to dynamically route with react
+Next up, expand on the other topics, and adding a footer to the pages.
