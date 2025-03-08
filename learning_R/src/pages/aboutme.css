@@ -1,0 +1,41 @@
+/*!* Styling for the About Me Container *!*/
+/*.about-me-container {*/
+/*    max-width: 800px; !* Restrict width for better readability *!*/
+/*    margin: 20px auto; !* Center the content *!*/
+/*    padding: 20px;*/
+/*    background-color: #fdf6e3; !* Light background *!*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);*/
+/*    overflow-wrap: break-word; !* Prevents text from overflowing *!*/
+/*    word-wrap: break-word;*/
+/*    white-space: normal;*/
+/*}*/
+
+
+/*!* Heading Styling *!*/
+/*.about-me-container h1 {*/
+/*    font-size: 2.2em;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    color: #333;*/
+/*    margin-bottom: 15px;*/
+/*    width: 100%; !* Ensures heading doesn't overflow *!*/
+/*    position: relative; !* Fixes any accidental absolute positioning *!*/
+/*}*/
+
+
+/* Body Text Styling */
+.about-me-container p {
+    font-size: 1.2em;
+    line-height: 1.6; /* Increase spacing for readability */
+    color: #222; /* Darker text for contrast */
+    text-align: justify; /* Justify text alignment */
+    margin-bottom: 10px;
+}
+
+/* Emphasizing Subheadings */
+.about-me-container strong {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #444;
+}

@@ -1,0 +1,24 @@
+My Journey of Curiosity, Growth, and Resilience
+
+I am Mercy Nwabueze-Nwoji, a dynamic and ambitious individual with a passion for technology, software testing, and continuous learning. My journey has been shaped by an insatiable curiosity about how things work and a determination to carve out a meaningful career in the tech industry. From an early age, I found myself drawn to problem-solving and the world of computing, a passion that would later evolve into a pursuit of software quality assurance and user-centric design.
+
+Early Interests and Education
+
+Growing up, I was always fascinated by the mechanics of technology. I enjoyed understanding systems, fixing things, and building interactive projects. This natural inclination led me to study Computer Science, where I explored programming, database management, and software development methodologies. However, as I progressed, I found myself particularly intrigued by software testing and quality assurance—an often-overlooked yet critical aspect of the software development lifecycle.
+
+Beyond my studies, I have actively sought hands-on experience, whether through personal projects, internships, or online courses. My dedication to professional growth is evident in my commitment to mastering industry-standard testing tools like Selenium, Jest, and Webdriver.io while also working towards ISTQB Foundation Level certification.
+
+Career Aspirations and Work Experience
+
+I have built a strong foundation in quality assurance, working as an intern and gaining practical experience in real-world testing environments. My roles have involved scripting automated tests, identifying software vulnerabilities, and ensuring that applications meet user expectations. My current position as an Operations Intern for the International Student Office also showcases my ability to work in fast-paced environments, manage responsibilities, and contribute meaningfully to organizational success.
+
+Looking ahead, I envision a future where I become a highly skilled QA professional, leading testing teams and contributing to the strategic development of software quality. My career roadmap includes advancing from a Junior Test Engineer to a Senior Software Tester, specializing in performance and security testing, and eventually becoming a Test Automation Architect. My passion for tech extends beyond work—I enjoy tackling coding challenges, contributing to open-source projects, and continuously refining my technical expertise.
+
+Personal Growth and Future Goals
+
+While my professional life is shaped by ambition and technical skills, I am also deeply introspective and value personal growth. As an INFP, I thrive on meaningful connections and thoughtful problem-solving. My openness to exploring different perspectives and my resilience in the face of challenges make me a well-rounded individual.
+
+In addition to tech, I have a keen interest in human-computer interaction and systems engineering, seeing them as potential avenues for future academic and professional exploration. I balance my career aspirations with personal interests, such as writing, sharing my experiences through blog articles, and planning projects that merge technology with practical applications—such as my invoice app for my uncle’s company.
+
+With a clear vision, unwavering determination, and an eagerness to learn, I am on a path to making a significant impact in the world of technology. My story is one of persistence, adaptability, and an unyielding belief that quality—whether in software or life—should never be compromised.
+
