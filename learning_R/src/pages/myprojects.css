@@ -32,3 +32,24 @@
     font-weight: bold;
     color: #333;
 }
+
+
+@media screen and (max-width: 768px){
+    .projects-container{
+        grid-template-columns: 1fr; /* 1 column */
+    }
+
+    .Project{
+        width: 65%;
+    }
+
+    .Project .project-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .Project .project-title{
+        font-size: 1.2em;
+    }
+    
+}

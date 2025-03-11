@@ -42,11 +42,16 @@ function Aboutme() {
     }, []);
 
     return (
+        <>
         <div >
             <h1>About Me</h1>
             {loading ? <p>Loading...</p> : error ? <p style={{ color: "red" }}>{error}</p> :
                 <div className="content" dangerouslySetInnerHTML={{__html: content}}/>}
+
+            
         </div>
+          
+        </>
     );
 }
 

@@ -75,6 +75,16 @@ body {
     cursor: pointer; /* Change cursor to pointer */
   }
 
+  .main-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    border: lightseagreen;
+}
 
    
 @media (min-width: 1024px) { /* for a larger screen*/

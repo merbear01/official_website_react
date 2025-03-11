@@ -24,7 +24,11 @@ function App() {
 
         </Routes>
 
-
+        <div>
+            <footer className='main-footer'>
+                <p> Created by: Mercy Nwabueze-nwoji</p>
+            </footer>
+        </div>  
 
 
     </>
